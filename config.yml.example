@@ -1,0 +1,47 @@
+NAME: example
+MODE: 1             # 1: train, 2: test, 3: eval
+MASK: 1             # 0: disable 1: enable
+GATED: 1            # 0: vanilla conv 1: Gatedconv
+NORM: 2             # 0: None 1: BatchNorm 2: InstanceNorm
+SEED: 10            # random seed
+GPU: [1]            # list of gpu ids
+DEBUG: 0            # turns on debugging mode
+VERBOSE: 0          # turns on verbose mode in the output console
+CLASS_NUM: 12
+DISCRIMINATIVE: 1
+PRED_DF: 0
+PRED_COM: 0
+PRED_SEM: 0
+
+TRAIN_BASE_FOLDERS: [./example_data/train]
+
+TEST_BASE_FOLDERS: [./example_data/train]
+
+VALID_BASE_FOLDERS: [./example_data/train]
+
+SUBFOLDERS: [train,gt,mask]
+
+DATASET_PORTION: 1.0
+LR_G: 0.0001                  # learning rate
+LR_D: 0.0001                  # learning rate
+
+BETA_G: 0.5
+BETA_D: 0.5
+BETA2: 0.9                    # adam optimizer beta2
+BATCH_SIZE: 4                 # input batch size for training
+BATCH_FACTOR: 4
+MAX_ITERS: 1e8                # maximum number of iterations to train the model
+PADDING: replicate                # zeros, circular, constant, replicate
+PAD_VALUE: 0                  # only used when padding mode is constant
+
+MASK_LOSS: 0                  # mask out the loss from unknown regions
+GAN_LOSS: nsgan               # nsgan | lsgan | hinge
+SSC_LOSS: lognll              # lognll | softf1
+INPAINT_ADV_LOSS_WEIGHT: 0.1  # adversarial loss weight
+
+SAVE_INTERVAL: 500           # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 0            # how many iterations to wait before sampling (0: never)
+SAMPLE_SIZE: 1               # number of inputs to sample
+EVAL_INTERVAL: 0            # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 10               # how many iterations to wait before logging training status (0: never)
+
