@@ -40,4 +40,4 @@ export the trained model to be used on c++
 python trace.py --config /pth/to/config.yml
 ```
 
-The pre-trained model can be downloaded [here](https://github.com/pytorch/pytorch#from-source).   
+The pre-trained model can be downloaded [here](http://campar.in.tum.de/scwu/SI_ScanNet_0614.pt).   
