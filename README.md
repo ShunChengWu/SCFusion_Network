@@ -1,4 +1,4 @@
-![teaser](https://github.com/ShunChengWu/SCFusion_Network/img/landscape_teaser.png)
+![teaser](https://github.com/ShunChengWu/SCFusion_Network/blob/main/img/landscape_teaser.png)
 
 This is the back-end network of SCFusion [repo](https://github.com/ShunChengWu/SCFusion) [[paper](https://arxiv.org/abs/2010.13662)].
 
@@ -14,7 +14,7 @@ conda activate scfusion
 # Build Meshing tool
 The meshing tool allows converting the input/output files into meshes
 
-![example](https://github.com/ShunChengWu/SCFusion_Network/img/example.png)
+![example](https://github.com/ShunChengWu/SCFusion_Network/blob/main/img/example.png)
 
 ```
 cd extension
