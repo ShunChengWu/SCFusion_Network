@@ -1,6 +1,15 @@
+# SCFusion
+**Authors**: [Shun-Cheng Wu][sc], [Keisuke Tateno][keisu], [Nassir Navab][nassir] and [Federico Tombari][fede]
 ![teaser](https://github.com/ShunChengWu/SCFusion_Network/blob/main/img/landscape_teaser.png)
 
+
+[sc]:http://campar.in.tum.de/Main/ShunChengWu
+[keisu]:http://campar.in.tum.de/Main/KeisukeTateno
+[nassir]:http://campar.in.tum.de/Main/NassirNavabCv
+[fede]:http://campar.in.tum.de/Main/FedericoTombari
 This is the back-end network of SCFusion [repo](https://github.com/ShunChengWu/SCFusion) [[paper](https://arxiv.org/abs/2010.13662)].
+
+
 
 
 We follow the data structure as the [edge-connect](https://github.com/knazeri/edge-connect) repository 
