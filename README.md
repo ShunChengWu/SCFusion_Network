@@ -1,7 +1,6 @@
 # SCFusion
-**Authors**: [Shun-Cheng Wu][sc], [Keisuke Tateno][keisu], [Nassir Navab][nassir] and [Federico Tombari][fede]
 ![teaser](https://github.com/ShunChengWu/SCFusion_Network/blob/main/img/landscape_teaser.png)
-
+**Authors**: [Shun-Cheng Wu][sc], [Keisuke Tateno][keisu], [Nassir Navab][nassir] and [Federico Tombari][fede]
 
 [sc]:http://campar.in.tum.de/Main/ShunChengWu
 [keisu]:http://campar.in.tum.de/Main/KeisukeTateno
