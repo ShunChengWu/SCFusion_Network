@@ -109,7 +109,8 @@ def load_config(mode=None):
     config.LOADBEST = args.loadbest
 
     # train mode
-    config.MODE = mode
+    if mode is not None:
+        config.MODE = mode
     
     return config
     
