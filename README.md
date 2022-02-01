@@ -49,3 +49,7 @@ python trace.py --config /pth/to/config.yml
 ```
 
 The pre-trained model can be downloaded [here](http://campar.in.tum.de/files/scfusion/SI_ScanNet_0614.pt).   
+
+
+# Acknowledgement
+This work is supported by the German Research Foundation (DFG, project number 407378162) and the Bavarian State Ministry of Education, Science and the Arts in the framework of the Centre Digitisation Bavaria (ZD.B).
